@@ -1,3 +1,31 @@
+.skills-p {
+  margin-top: 10%;
+}
+
+.skills li {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  width: 60%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .img-project {
   width: 350px;
   height: 200px;
