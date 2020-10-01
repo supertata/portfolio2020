@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- CSS only -->
+    <!-- Bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- <nav>
@@ -39,22 +40,13 @@
       </a>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link active" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link disabled"
-            href="#"
-            tabindex="-1"
-            aria-disabled="true"
-            >Disabled</a
-          >
+          <a class="nav-link" href="#contact">Contacts</a>
         </li>
       </ul>
     </nav>
@@ -77,7 +69,9 @@
       <hr />
 
       <!-- Project section -->
-      <div class="projects-wrapper">
+      <div id="projects">
+      <h2>My Skills and qualifications.</h2>
+      <div class="projects-wrapper" >
         <!--   1st article -->
         <article>
           <header>
@@ -169,7 +163,7 @@
 
       <hr />
       <!-- Skills -->
-      <div class="skills">
+      <div class="skills" id="skills">
         <h2>My Skills and qualifications.</h2>
         <div class="skill-row">
           <img class="skills-img" src="images/skills.png" alt="img-skills" />
@@ -191,7 +185,7 @@
         </div>
       </div>
       <hr />
-      <div class="contact-me">
+      <div class="contact-me" id="contact">
         <h2>Get In Touch</h2>
         <!-- <h3>
           If you are interested in my profile for a junior developer role please

@@ -12,8 +12,9 @@ header {
 
 .projects-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 0 10% 0% 10%;
+  margin: 40px auto 60px;
 }
 
 article {
@@ -123,6 +124,7 @@ p {
 
 .top-container {
   background-color: #e4f9f5;
+  padding-top: 2%;
   position: relative;
 }
 
@@ -149,7 +151,7 @@ p {
 .top-cloud {
   position: absolute;
   right: 180px;
-  top: 40px;
+  top: 3%;
 }
 
 .bottom-cloud {
@@ -184,4 +186,10 @@ p {
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
+}
+
+@media (max-width: 720px) {
+  .projects-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
