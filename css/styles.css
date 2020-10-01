@@ -1,3 +1,45 @@
+.img-project {
+  width: 100%;
+
+  padding: 5% 0 5% 0;
+  border-radius: 5px;
+  position: relative;
+  margin: auto;
+}
+
+header {
+  margin: 0;
+}
+
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  padding: 0 10% 0% 10%;
+}
+
+article {
+  border: solid 1px grey;
+  border-radius: 5px;
+  margin: 5%;
+  position: relative;
+}
+
+.project-description {
+  padding: 10%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.middle-container {
+  padding-top: 80px;
+}
+
+.navbar {
+  background-color: #e4f9f5;
+}
+
 body {
   color: #40514e;
   margin: 0;
@@ -8,7 +50,8 @@ body {
 
 h1 {
   font-size: 5.626rem;
-  margin: 50px auto 0 auto;
+  margin: 0 auto 0 auto;
+  padding-top: 60px;
   font-family: "Sacramento", cursive;
   color: #66bfbf;
 }
@@ -44,7 +87,7 @@ hr {
   border: dotted #d6d4ce 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
 p {
@@ -81,7 +124,6 @@ p {
 .top-container {
   background-color: #e4f9f5;
   position: relative;
-  margin: 100px 0;
 }
 
 .profile {
